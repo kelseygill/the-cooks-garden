@@ -8,8 +8,8 @@ function nextimg() {
   } else {
     currentactive = currentactive + 1
   }
-
-
+  
+}
 var bannerimages = document.querySelectorAll(".banner-img")
 if (bannerImages) {
   var currectactive = 0
