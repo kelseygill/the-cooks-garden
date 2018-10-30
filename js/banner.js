@@ -11,12 +11,14 @@ console.log(bannerimages[currentactive])
 
 }
 var bannerimages = document.querySelectorAll(".banner-img")
-console.log(bannerimages)
-var currentactive = 0
+
+if (bannerImages) {
+  var currentactive = 0
   nextimg()
-setInterval(function() {
-  nextimg()
-}, 5000)
+  setInterval(function() {
+    nextimg()
+  }, 5000)
+}
 
 function addClass(className, element) {
   element.className = element.className + " " + className
