@@ -8,11 +8,12 @@ function nextimg() {
   } else {
     currentactive = currentactive + 1
   }
-  
+
 }
 var bannerimages = document.querySelectorAll(".banner-img")
-if (bannerImages) {
-  var currectactive = 0
+var currentactive = 0
+console.log(bannerimages)
+if (bannerimages) && bannerimages.length{
   nextimg()
   setInterval(function() {
     nextimg()
